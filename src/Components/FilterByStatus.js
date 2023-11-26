@@ -15,8 +15,7 @@ const FilterByStatus = () => {
               <button
                 key={index + 1}
                 style={{
-                  backgroundColor:
-                    activeButton === index ? "#dbf9f9" : "#f3ebeb",
+                  backgroundColor: activeButton === index ? "#dbf9f9" : "#f3ebeb",
                   color: activeButton === index ? "#319797" : " #221f1f",
                 }}
                 onClick={() => setActiveButton(index)}

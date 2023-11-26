@@ -1,4 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans:wght@100;200;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
 :root{
     font-size: 62.5%;
 --text-color:#221f1f;
@@ -10,7 +15,7 @@
     box-sizing: border-box;
 }
 body{
-font-family: 'Poppins', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1.6rem;
 margin-inline: auto;
 width: min(90%, 90%);
@@ -36,7 +41,7 @@ width: 26px;
 }
 
 .status-btn{
-    padding: 0.4em;
+    padding: 0.5em 01em;
     border-radius: 12px;
     border: none;
     font-weight: 600;
