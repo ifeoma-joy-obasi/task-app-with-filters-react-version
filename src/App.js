@@ -1,6 +1,7 @@
 
 import './App.css';
-import FilterByStatus from './Components/FilterByStatus';
+import FilterByStatus from './Components/filter/FilterByStatus';
+
 
 function App() {
   return (
